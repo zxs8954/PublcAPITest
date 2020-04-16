@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test">
+    <test name="test">
+        <classes>
+            <class name="com.cases.BeforeTestCase"/>
+            <class name="com.cases.Cases">
+<!--                <methods>-->
+<!--                    <include name="getJokeCase"/>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.config.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cases">
+    <select id="getJoke" resultType="com.model.GetJoke">
+        select * from getjoke;
+    </select>
+    <select id="getSingleJoke" resultType="com.model.GetSingleJoke">
+        select  * from getSingleJoke;
+    </select>
+    <select id="searchPoetry" resultType="com.model.SearchPoetry">
+        select * from searchPoetry;
+    </select>
+    <select id="searchAuthors" resultType="com.model.SearchAuthors">
+        select * from searchAuthors;
+    </select>
+    <select id="likePoetry" resultType="com.model.LikePoetry">
+        select * from LikePoetry;
+    </select>
+    <select id="musicRankingsDetails" resultType="com.model.MusicRankingsDetails">
+        select * from musicRankingsDetails;
+    </select>
+    <select id="getSongPoetry" resultType="com.model.GetSongPoetry">
+        select * from getSongPoetry;
+    </select>
+    <select id="getTangPoetry" resultType="com.model.GetTangPoetry">
+        select * from getTangPoetry;
+    </select>
+    <select id="getDetails" resultType="com.model.MusicBroadcastingDetailsv">
+        select * from MusicBroadcastingDetailsv;
+    </select>
+    <select id="videoCategoryDetails" resultType="com.model.VideoCategoryDetails">
+        select * from videoCategoryDetails;
+    </select>
+    <select id="videoRecommend" resultType="com.model.VideoRecommend">
+        select * from videoRecommend;
+    </select>
+</mapper>
