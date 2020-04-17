@@ -1,0 +1,268 @@
+[INFO]19:19:35,981,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]19,customerId是:102518516
+[INFO]19:19:35,983,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]20,[{"msg":"成功","value":{"address":"","contactName":"13388338833","subscriberStatus":2,"mobile":13958083951,"subscriberId":105062171,"subscriberCode":"1789001820002","cardNo":"cardnull","pcdId":-1,"subFlag":1,"subscriberName":"13388338833","resNo":"NULL","familyLock":0,"customerId":102518516},"key":"success"}]
+[INFO]19:22:30,773,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]20,customerId是:102518516
+[INFO]19:22:30,775,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]21,[{
+	"msg":"成功",
+	"value":{
+		"address":"",
+		"contactName":"13388338833",
+		"subscriberStatus":2,
+		"mobile":13958083951,
+		"subscriberId":105062171,
+		"subscriberCode":"1789001820002",
+		"cardNo":"cardnull",
+		"pcdId":-1,
+		"subFlag":1,
+		"subscriberName":"13388338833",
+		"resNo":"NULL",
+		"familyLock":0,
+		"customerId":102518516
+	},
+	"key":"success"
+}]
+[INFO]19:47:48,064,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]27,customerId是:102518516
+[INFO]19:47:48,067,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]28,[{
+	"msg":"成功",
+	"value":{
+		"address":"",
+		"contactName":"13388338833",
+		"subscriberStatus":2,
+		"mobile":13958083951,
+		"subscriberId":105062171,
+		"subscriberCode":"1789001820002",
+		"cardNo":"cardnull",
+		"pcdId":-1,
+		"subFlag":1,
+		"subscriberName":"13388338833",
+		"resNo":"NULL",
+		"familyLock":0,
+		"customerId":102518516
+	},
+	"key":"success"
+}]
+[INFO]19:49:36,929,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]27,customerId是:102518516
+[INFO]19:49:36,931,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]28,[{
+	"msg":"成功",
+	"value":{
+		"address":"",
+		"contactName":"13388338833",
+		"subscriberStatus":2,
+		"mobile":13958083951,
+		"subscriberId":105062171,
+		"subscriberCode":"1789001820002",
+		"cardNo":"cardnull",
+		"pcdId":-1,
+		"subFlag":1,
+		"subscriberName":"13388338833",
+		"resNo":"NULL",
+		"familyLock":0,
+		"customerId":102518516
+	},
+	"key":"success"
+}]
+[INFO]20:01:09,533,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]27,customerId是:102518516
+[INFO]20:01:09,534,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]28,[{
+	"msg":"成功",
+	"value":{
+		"address":"",
+		"contactName":"13388338833",
+		"subscriberStatus":2,
+		"mobile":13958083951,
+		"subscriberId":105062171,
+		"subscriberCode":"1789001820002",
+		"cardNo":"cardnull",
+		"pcdId":-1,
+		"subFlag":1,
+		"subscriberName":"13388338833",
+		"resNo":"NULL",
+		"familyLock":0,
+		"customerId":102518516
+	},
+	"key":"success"
+}]
+[INFO]20:02:06,107,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]27,customerId是:102518516
+[INFO]20:02:06,109,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]28,[{
+	"msg":"成功",
+	"value":{
+		"address":"",
+		"contactName":"13388338833",
+		"subscriberStatus":2,
+		"mobile":13958083951,
+		"subscriberId":105062171,
+		"subscriberCode":"1789001820002",
+		"cardNo":"cardnull",
+		"pcdId":-1,
+		"subFlag":1,
+		"subscriberName":"13388338833",
+		"resNo":"NULL",
+		"familyLock":0,
+		"customerId":102518516
+	},
+	"key":"success"
+}]
+[INFO]20:03:50,674,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]27,customerId是:102518516
+[INFO]20:03:50,676,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]28,[{
+	"msg":"成功",
+	"value":{
+		"address":"",
+		"contactName":"13388338833",
+		"subscriberStatus":2,
+		"mobile":13958083951,
+		"subscriberId":105062171,
+		"subscriberCode":"1789001820002",
+		"cardNo":"cardnull",
+		"pcdId":-1,
+		"subFlag":1,
+		"subscriberName":"13388338833",
+		"resNo":"NULL",
+		"familyLock":0,
+		"customerId":102518516
+	},
+	"key":"success"
+}]
+[INFO]20:08:04,592,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]27,customerId是:102740233
+[INFO]20:08:04,594,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]28,[{
+	"msg":"成功",
+	"value":{
+		"address":"杭州市区滨江区长河镇街道长河村社区长河村小区(农村)(停模)天马路79号华数产业园H座1楼国家实验室",
+		"contactName":"少儿教育节目部",
+		"subscriberStatus":2,
+		"mobile":18768124828,
+		"subscriberId":105407645,
+		"subscriberCode":"0000438080",
+		"cardNo":"8330110427096434",
+		"pcdId":-1,
+		"subFlag":3,
+		"subscriberName":"少儿教育节目部",
+		"resNo":"01111700622020A8BD3A617BC3",
+		"familyLock":0,
+		"customerId":102740233
+	},
+	"key":"success"
+}]
+[INFO]20:20:05,226,[Thread]main,[Class]CaseTest,[Method]getBalance,[Line]36,[{
+	"msg":"成功",
+	"value":{
+		"accountStatus":1,
+		"minNeedAmount":1000,
+		"accountId":101436332,
+		"accountCredit":15000,
+		"accountCode":1001388540,
+		"creditId":3,
+		"pointBalace":104171,
+		"accountName":"华数传媒产品设计部测试演示机",
+		"creditCanSet":1,
+		"mobile":13958135765,
+		"paymentMethod":1,
+		"bookList":[
+			{
+				"itemName":"数字现金",
+				"amount":1504,
+				"payAmount":0,
+				"feeTotal":-197393,
+				"feeDetailTotal":80,
+				"feeCycleTotal":198817
+			},
+			{
+				"itemName":"数字优惠点",
+				"amount":420571,
+				"payAmount":0,
+				"feeTotal":420571,
+				"feeDetailTotal":0,
+				"feeCycleTotal":0
+			},
+			{
+				"itemName":"数字增值点",
+				"amount":0,
+				"payAmount":0,
+				"feeTotal":0,
+				"feeDetailTotal":0,
+				"feeCycleTotal":0
+			},
+			{
+				"itemName":"宽带基本服务账本",
+				"amount":0,
+				"payAmount":0,
+				"feeTotal":0,
+				"feeDetailTotal":0,
+				"feeCycleTotal":0
+			},
+			{
+				"itemName":"宽带现金账本",
+				"amount":0,
+				"payAmount":0,
+				"feeTotal":0,
+				"feeDetailTotal":0,
+				"feeCycleTotal":0
+			},
+			{
+				"itemName":"宽带点账本",
+				"amount":0,
+				"payAmount":0,
+				"feeTotal":0,
+				"feeDetailTotal":0,
+				"feeCycleTotal":0
+			},
+			{
+				"itemName":"数字包年账本",
+				"amount":-168000,
+				"payAmount":0,
+				"feeTotal":-168000,
+				"feeDetailTotal":0,
+				"feeCycleTotal":0
+			}
+		]
+	},
+	"key":"success"
+}]
+[INFO]20:20:05,247,[Thread]main,[Class]CaseTest,[Method]getCustomCode,[Line]44,[{
+	"head":{
+		"msg":"success",
+		"statusCode":"200"
+	},
+	"data":{
+		"customerId":"102740233"
+	}
+}]
+[INFO]20:20:05,340,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]27,customerId是:102740233
+[INFO]20:20:05,341,[Thread]main,[Class]CaseTest,[Method]getCustomID,[Line]28,[{
+	"msg":"成功",
+	"value":{
+		"address":"杭州市区滨江区长河镇街道长河村社区长河村小区(农村)(停模)天马路79号华数产业园H座1楼国家实验室",
+		"contactName":"少儿教育节目部",
+		"subscriberStatus":2,
+		"mobile":18768124828,
+		"subscriberId":105407645,
+		"subscriberCode":"0000438080",
+		"cardNo":"8330110427096434",
+		"pcdId":-1,
+		"subFlag":3,
+		"subscriberName":"少儿教育节目部",
+		"resNo":"01111700622020A8BD3A617BC3",
+		"familyLock":0,
+		"customerId":102740233
+	},
+	"key":"success"
+}]
+[INFO]20:20:05,553,[Thread]main,[Class]CaseTest,[Method]getUserLevel,[Line]52,[{
+	"ret":"0",
+	"mImg":"http://irs.wasu.cn/iusdata/member/enjoy.png",
+	"mIds":"1|1|1",
+	"mUrls":"http://irs.wasu.cn/iusdata/member/wasulight.png|http://irs.wasu.cn/iusdata/member/childlight.png|http://irs.wasu.cn/iusdata/member/vaddlignt.png",
+	"retInfo":"查询成功",
+	"mName":"尊享用户"
+}]
+[INFO]20:20:05,567,[Thread]main,[Class]CaseTest,[Method]reSignIn,[Line]68,[{
+	"head":{
+		"msg":"缺少参数",
+		"statusCode":"100"
+	},
+	"data":{}
+}]
+[INFO]20:20:05,581,[Thread]main,[Class]CaseTest,[Method]signIn,[Line]60,[{
+	"head":{
+		"msg":"缺少参数",
+		"statusCode":"100"
+	},
+	"data":{}
+}]

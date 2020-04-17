@@ -2,86 +2,86 @@
 <testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="test" duration-ms="2229" started-at="2020-04-15T19:11:55 CST" finished-at="2020-04-15T19:11:57 CST">
+  <suite name="test" duration-ms="2265" started-at="2020-04-16T13:34:13 CST" finished-at="2020-04-16T13:34:16 CST">
     <groups>
     </groups>
-    <test name="test" duration-ms="2229" started-at="2020-04-15T19:11:55 CST" finished-at="2020-04-15T19:11:57 CST">
+    <test name="test" duration-ms="2265" started-at="2020-04-16T13:34:13 CST" finished-at="2020-04-16T13:34:16 CST">
       <class name="com.cases.BeforeTestCase">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.cases.BeforeTestCase@63753b6d]" name="beforeTest" is-config="true" duration-ms="170" started-at="2020-04-15T19:11:55 CST" finished-at="2020-04-15T19:11:55 CST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.cases.BeforeTestCase@6ddf90b0]" name="beforeTest" is-config="true" duration-ms="194" started-at="2020-04-16T13:34:13 CST" finished-at="2020-04-16T13:34:14 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
       </class> <!-- com.cases.BeforeTestCase -->
       <class name="com.cases.Cases">
-        <test-method status="PASS" signature="getJokeCase()[pri:0, instance:com.cases.Cases@6b09bb57]" name="getJokeCase" duration-ms="1270" started-at="2020-04-15T19:11:55 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="getJokeCase()[pri:0, instance:com.cases.Cases@57536d79]" name="getJokeCase" duration-ms="1347" started-at="2020-04-16T13:34:14 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getJokeCase -->
-        <test-method status="PASS" signature="getLikePoetry()[pri:0, instance:com.cases.Cases@6b09bb57]" name="getLikePoetry" duration-ms="100" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="getLikePoetry()[pri:0, instance:com.cases.Cases@57536d79]" name="getLikePoetry" duration-ms="101" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLikePoetry -->
-        <test-method status="PASS" signature="getRecommendPoetry()[pri:0, instance:com.cases.Cases@6b09bb57]" name="getRecommendPoetry" duration-ms="20" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="getRecommendPoetry()[pri:0, instance:com.cases.Cases@57536d79]" name="getRecommendPoetry" duration-ms="17" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getRecommendPoetry -->
-        <test-method status="PASS" signature="getSearchAuthors()[pri:0, instance:com.cases.Cases@6b09bb57]" name="getSearchAuthors" duration-ms="30" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="getSearchAuthors()[pri:0, instance:com.cases.Cases@57536d79]" name="getSearchAuthors" duration-ms="20" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSearchAuthors -->
-        <test-method status="PASS" signature="getSearchPoetry()[pri:0, instance:com.cases.Cases@6b09bb57]" name="getSearchPoetry" duration-ms="20" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="getSearchPoetry()[pri:0, instance:com.cases.Cases@57536d79]" name="getSearchPoetry" duration-ms="19" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSearchPoetry -->
-        <test-method status="PASS" signature="getSingleJoke()[pri:0, instance:com.cases.Cases@6b09bb57]" name="getSingleJoke" duration-ms="60" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="getSingleJoke()[pri:0, instance:com.cases.Cases@57536d79]" name="getSingleJoke" duration-ms="57" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSingleJoke -->
-        <test-method status="PASS" signature="getSinglePoetry()[pri:0, instance:com.cases.Cases@6b09bb57]" name="getSinglePoetry" duration-ms="20" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="getSinglePoetry()[pri:0, instance:com.cases.Cases@57536d79]" name="getSinglePoetry" duration-ms="15" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSinglePoetry -->
-        <test-method status="PASS" signature="getSongPoetry()[pri:0, instance:com.cases.Cases@6b09bb57]" name="getSongPoetry" duration-ms="20" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="getSongPoetry()[pri:0, instance:com.cases.Cases@57536d79]" name="getSongPoetry" duration-ms="17" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSongPoetry -->
-        <test-method status="PASS" signature="getTangPoetry()[pri:0, instance:com.cases.Cases@6b09bb57]" name="getTangPoetry" duration-ms="20" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="getTangPoetry()[pri:0, instance:com.cases.Cases@57536d79]" name="getTangPoetry" duration-ms="18" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTangPoetry -->
-        <test-method status="PASS" signature="musicBroadcasting()[pri:0, instance:com.cases.Cases@6b09bb57]" name="musicBroadcasting" duration-ms="30" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="musicBroadcasting()[pri:0, instance:com.cases.Cases@57536d79]" name="musicBroadcasting" duration-ms="29" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- musicBroadcasting -->
-        <test-method status="PASS" signature="musicBroadcastingDetailsv()[pri:0, instance:com.cases.Cases@6b09bb57]" name="musicBroadcastingDetailsv" duration-ms="20" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="musicBroadcastingDetailsv()[pri:0, instance:com.cases.Cases@57536d79]" name="musicBroadcastingDetailsv" duration-ms="20" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- musicBroadcastingDetailsv -->
-        <test-method status="PASS" signature="musicRankings()[pri:0, instance:com.cases.Cases@6b09bb57]" name="musicRankings" duration-ms="30" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="musicRankings()[pri:0, instance:com.cases.Cases@57536d79]" name="musicRankings" duration-ms="39" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- musicRankings -->
-        <test-method status="PASS" signature="musicRankingsDetails()[pri:0, instance:com.cases.Cases@6b09bb57]" name="musicRankingsDetails" duration-ms="20" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="musicRankingsDetails()[pri:0, instance:com.cases.Cases@57536d79]" name="musicRankingsDetails" duration-ms="21" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- musicRankingsDetails -->
-        <test-method status="PASS" signature="todayVideo()[pri:0, instance:com.cases.Cases@6b09bb57]" name="todayVideo" duration-ms="100" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="todayVideo()[pri:0, instance:com.cases.Cases@57536d79]" name="todayVideo" duration-ms="111" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- todayVideo -->
-        <test-method status="PASS" signature="videoCategory()[pri:0, instance:com.cases.Cases@6b09bb57]" name="videoCategory" duration-ms="30" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="videoCategory()[pri:0, instance:com.cases.Cases@57536d79]" name="videoCategory" duration-ms="23" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- videoCategory -->
-        <test-method status="PASS" signature="videoCategoryDetails()[pri:0, instance:com.cases.Cases@6b09bb57]" name="videoCategoryDetails" duration-ms="110" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="videoCategoryDetails()[pri:0, instance:com.cases.Cases@57536d79]" name="videoCategoryDetails" duration-ms="86" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- videoCategoryDetails -->
-        <test-method status="PASS" signature="videoHomeTab()[pri:0, instance:com.cases.Cases@6b09bb57]" name="videoHomeTab" duration-ms="40" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="videoHomeTab()[pri:0, instance:com.cases.Cases@57536d79]" name="videoHomeTab" duration-ms="15" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- videoHomeTab -->
-        <test-method status="PASS" signature="videoRecommend()[pri:0, instance:com.cases.Cases@6b09bb57]" name="videoRecommend" duration-ms="89" started-at="2020-04-15T19:11:57 CST" finished-at="2020-04-15T19:11:57 CST">
+        <test-method status="PASS" signature="videoRecommend()[pri:0, instance:com.cases.Cases@57536d79]" name="videoRecommend" duration-ms="82" started-at="2020-04-16T13:34:15 CST" finished-at="2020-04-16T13:34:16 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- videoRecommend -->

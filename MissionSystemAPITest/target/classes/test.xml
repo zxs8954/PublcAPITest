@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="任务系统">
+    <test name="任务系统测试">
+        <classes>
+            <class name="com.cases.CaseTest">
+                <methods>
+                    <inlude name="beforeTest"/>
+                    <inlude name="getCustomID"/>
+                    <inlude name="getBalance"/>
+                    <inlude name="getUserLevel"/>
+                    <inlude name="signIn"/>
+                    <inlude name="reSignIn"/>
+                </methods>
+            </class>
+            <!--压测接口-->
+            <class name="com.cases.PressureTestCase"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.config.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

@@ -1,7 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcaacac8-963d-415a-91a9-3f5b9cd53bdd" name="Default Changelist" comment="" />
+    <list default="true" id="dcaacac8-963d-415a-91a9-3f5b9cd53bdd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/MissionSystemAPITest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/log/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/cases/Before.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/cases/CaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/config/ExtentTestNGIReporterListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/config/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/model/CustomCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/model/CustomID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/model/GetBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/model/GetUserLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/model/ReSignIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/model/SignIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/model/TableName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/utils/ConfigFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/utils/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/utils/Get.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/utils/GetHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/utils/GetResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/utils/JSONFormatUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/java/com/utils/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/resources/db.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/src/main/resources/mapper/sql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/cases/Before.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/cases/CaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/config/ExtentTestNGIReporterListener$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/config/ExtentTestNGIReporterListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/config/TestConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/model/CustomCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/model/CustomID.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/model/GetBalance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/model/GetUserLevel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/model/ReSignIn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/model/SignIn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/model/TableName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/utils/ConfigFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/utils/DBUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/utils/GetHttpClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/utils/GetResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/com/utils/JSONFormatUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/db.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MissionSystemAPITest/target/classes/mapper/sql.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/log/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.cases.Cases.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.cases.Cases.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/test/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/test/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/test/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/test/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/test/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ApiAuto.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ApiAuto.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,18 +92,21 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZhxxUxH8wKYDjEGMIPuedgJQ3a" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/课程代码/12章/AutoTest2" />
+    <property name="last_opened_file_path" value="D:/TestUser" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -176,11 +245,16 @@
       <workItem from="1586944569715" duration="1927000" />
       <workItem from="1586946917161" duration="2229000" />
       <workItem from="1587004744326" duration="1297000" />
+      <workItem from="1587015164592" duration="8810000" />
+      <workItem from="1587034270381" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="663" y="306" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585305941461">
@@ -203,10 +277,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1211" height="557" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1585909647641" />
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1586947464088">
+    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1587034308367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586947464088" />
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587034308367" />
     <state width="1867" height="387" key="GridCell.Tab.0.bottom" timestamp="1587006041075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -243,18 +317,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="345" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586946553606" />
-    <state x="577" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1586944569059">
+    <state x="577" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1587015166432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="303" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586944569059" />
+    <state x="577" y="303" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587015166432" />
     <state x="627" y="236" key="extract.method.dialog" timestamp="1586228201002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="236" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586228201002" />
-    <state x="161" y="148" key="new project wizard" timestamp="1585791709157">
+    <state x="161" y="148" key="new project wizard" timestamp="1587017940704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="161" y="148" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585791709157" />
+    <state x="161" y="148" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587017940704" />
     <state x="532" y="237" key="run.anything.popup" timestamp="1585905231397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
