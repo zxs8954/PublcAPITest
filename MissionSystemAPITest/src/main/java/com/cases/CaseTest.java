@@ -6,6 +6,7 @@ import com.utils.*;
 import org.apache.log4j.Logger;
 import org.json.JSONArray;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -34,7 +35,9 @@ public class CaseTest {
         int expect = 102740233;
         log.info("\r" + "customerId是:" + actual);
         log.info(json);
+        Reporter.log(json);
         Assert.assertEquals(actual, expect);
+
     }
 
     @Test
@@ -43,7 +46,8 @@ public class CaseTest {
         JSONArray array = new JSONArray(json);
         BigDecimal act = array.getJSONObject(0).getJSONObject("value").getBigDecimal("mobile");
         log.info(act);
-        Assert.assertEquals(act, "13958135765");
+        Reporter.log(json);
+        Assert.assertEquals(act,new BigDecimal("13958135765"));
     }
 
     @Test
@@ -52,8 +56,8 @@ public class CaseTest {
         JSONArray array = new JSONArray(json);
         String act = array.getJSONObject(0).getJSONObject("data").getString("customerId");
         log.info("customerId是:" + act);
-        BigDecimal exp=new BigDecimal("102740233");
-        Assert.assertEquals(act, exp);
+        Reporter.log(json);
+        Assert.assertEquals(act, "102740233");
     }
 
     @Test
@@ -62,6 +66,7 @@ public class CaseTest {
         JSONArray array = new JSONArray(json);
         String act = array.getJSONObject(0).getString("retInfo");
         log.info(act);
+        Reporter.log(json);
         Assert.assertEquals(act, "查询成功");
     }
 
@@ -71,6 +76,7 @@ public class CaseTest {
         JSONArray array = new JSONArray(json);
         String act = array.getJSONObject(0).getJSONObject("head").getString("statusCode");
         log.info(act);
+        Reporter.log(json);
         Assert.assertEquals(act, "200");
     }
 

@@ -1,0 +1,448 @@
+<html>
+<head>
+<title>TestNG:  任务系统测试</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>任务系统测试</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 17 15:38:23 CST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2013 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cases.PressureTestCase.addIntegra()'><b>addIntegra</b><br>Test class: com.cases.PressureTestCase<br/>
+<a href="#Output-371439501" onClick='toggleBox("Output-371439501", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-371439501" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-371439501">
+[{
+	"head":{
+		"msg":"success",
+		"statusCode":"200"
+	},
+	"data":{
+		"AWARD_POINTS":200,
+		"CUSTOMERID":"2757387",
+		"STBID":"11040210112052544C31CF2B",
+		"AWARD_NAME":"?????????á?±?ú?·°ü",
+		"OPTION_TYPE":22,
+		"OPERATION_LOG_ID":244282313
+	}
+}]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.cases.PressureTestCase@64bf3bbf</td></tr>
+<tr>
+<td title='com.cases.CaseTest.getBalance()'><b>getBalance</b><br>Test class: com.cases.CaseTest<br/>
+<a href="#Output-232307208" onClick='toggleBox("Output-232307208", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-232307208" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-232307208">
+[{
+	"msg":"成功",
+	"value":{
+		"accountStatus":1,
+		"minNeedAmount":1000,
+		"accountId":101436332,
+		"accountCredit":15000,
+		"accountCode":1001388540,
+		"creditId":3,
+		"pointBalace":104171,
+		"accountName":"华数传媒产品设计部测试演示机",
+		"creditCanSet":1,
+		"mobile":13958135765,
+		"paymentMethod":1,
+		"bookList":[
+			{
+				"itemName":"数字现金",
+				"amount":1504,
+				"payAmount":0,
+				"feeTotal":-210454,
+				"feeDetailTotal":80,
+				"feeCycleTotal":211878
+			},
+			{
+				"itemName":"数字优惠点",
+				"amount":420571,
+				"payAmount":0,
+				"feeTotal":420571,
+				"feeDetailTotal":0,
+				"feeCycleTotal":0
+			},
+			{
+				"itemName":"数字增值点",
+				"amount":0,
+				"payAmount":0,
+				"feeTotal":0,
+				"feeDetailTotal":0,
+				"feeCycleTotal":0
+			},
+			{
+				"itemName":"宽带基本服务账本",
+				"amount":0,
+				"payAmount":0,
+				"feeTotal":0,
+				"feeDetailTotal":0,
+				"feeCycleTotal":0
+			},
+			{
+				"itemName":"宽带现金账本",
+				"amount":0,
+				"payAmount":0,
+				"feeTotal":0,
+				"feeDetailTotal":0,
+				"feeCycleTotal":0
+			},
+			{
+				"itemName":"宽带点账本",
+				"amount":0,
+				"payAmount":0,
+				"feeTotal":0,
+				"feeDetailTotal":0,
+				"feeCycleTotal":0
+			},
+			{
+				"itemName":"数字包年账本",
+				"amount":-168000,
+				"payAmount":0,
+				"feeTotal":-168000,
+				"feeDetailTotal":0,
+				"feeCycleTotal":0
+			}
+		]
+	},
+	"key":"success"
+}]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.cases.CaseTest@64bfbc86</td></tr>
+<tr>
+<td title='com.cases.CaseTest.getCustomCode()'><b>getCustomCode</b><br>Test class: com.cases.CaseTest<br/>
+<a href="#Output-294247762" onClick='toggleBox("Output-294247762", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-294247762" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-294247762">
+[{
+	"head":{
+		"msg":"success",
+		"statusCode":"200"
+	},
+	"data":{
+		"customerId":"102740233"
+	}
+}]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.cases.CaseTest@64bfbc86</td></tr>
+<tr>
+<td title='com.cases.CaseTest.getCustomID()'><b>getCustomID</b><br>Test class: com.cases.CaseTest<br/>
+<a href="#Output-382750013" onClick='toggleBox("Output-382750013", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-382750013" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-382750013">
+[{
+	"msg":"成功",
+	"value":{
+		"address":"杭州市区滨江区长河镇街道长河村社区长河村小区(农村)(停模)天马路79号华数产业园H座1楼国家实验室",
+		"contactName":"少儿教育节目部",
+		"subscriberStatus":2,
+		"mobile":18768124828,
+		"subscriberId":105407645,
+		"subscriberCode":"0000438080",
+		"cardNo":"8330110427096434",
+		"pcdId":-1,
+		"subFlag":3,
+		"subscriberName":"少儿教育节目部",
+		"resNo":"01111700622020A8BD3A617BC3",
+		"familyLock":0,
+		"customerId":102740233
+	},
+	"key":"success"
+}]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.cases.CaseTest@64bfbc86</td></tr>
+<tr>
+<td title='com.cases.PressureTestCase.getInfoFrom()'><b>getInfoFrom</b><br>Test class: com.cases.PressureTestCase<br/>
+<a href="#Output-1162918744" onClick='toggleBox("Output-1162918744", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1162918744" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1162918744">
+[{
+	"head":{
+		"msg":"success",
+		"statusCode":"200"
+	},
+	"data":"1、签到积分2分,去看看可以兑换哪些东西吧；2、恭喜您,连续签到三天,任务奖励100积分奖励已到账，请注意查收；3、签到积分2分,去看看可以兑换哪些东西吧；4、恭喜您,积分兑换产品体验包,任务奖励小米充电宝已到账，请注意查收；5、恭喜您,充值200元现金,任务奖励1000积分已到账，请注意查收；"
+}]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.cases.PressureTestCase@64bf3bbf</td></tr>
+<tr>
+<td title='com.cases.PressureTestCase.getPlayPluginTask()'><b>getPlayPluginTask</b><br>Test class: com.cases.PressureTestCase<br/>
+<a href="#Output-461160828" onClick='toggleBox("Output-461160828", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-461160828" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-461160828">
+[{
+	"stbId":"11040210112052544C31CF2B",
+	"taskList":[
+		{
+			"totalAmount":0,
+			"amount":0,
+			"period":0,
+			"totalPeriod":15,
+			"processId":21075,
+			"type":1,
+			"taskId":8,
+			"taskStatus":0
+		},
+		{
+			"totalAmount":10,
+			"amount":0,
+			"period":0,
+			"totalPeriod":2,
+			"processId":21074,
+			"type":0,
+			"taskId":7,
+			"taskStatus":0
+		},
+		{
+			"totalAmount":0,
+			"amount":0,
+			"period":0,
+			"totalPeriod":15,
+			"processId":21076,
+			"type":2,
+			"taskId":11,
+			"taskStatus":0
+		},
+		{
+			"totalAmount":0,
+			"amount":0,
+			"period":0,
+			"totalPeriod":2,
+			"processId":21073,
+			"beginTime":"2020-4-17 00:00:00",
+			"endTime":"2020-4-18 00:00:00",
+			"type":3,
+			"taskId":6,
+			"taskStatus":0
+		}
+	],
+	"interfaceStatus":200
+}]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.cases.PressureTestCase@64bf3bbf</td></tr>
+<tr>
+<td title='com.cases.CaseTest.getUserLevel()'><b>getUserLevel</b><br>Test class: com.cases.CaseTest<br/>
+<a href="#Output-574434418" onClick='toggleBox("Output-574434418", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-574434418" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-574434418">
+[{
+	"ret":"0",
+	"mImg":"http://irs.wasu.cn/iusdata/member/enjoy.png",
+	"mIds":"1|1|1",
+	"mUrls":"http://irs.wasu.cn/iusdata/member/wasulight.png|http://irs.wasu.cn/iusdata/member/childlight.png|http://irs.wasu.cn/iusdata/member/vaddlignt.png",
+	"retInfo":"查询成功",
+	"mName":"尊享用户"
+}]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.cases.CaseTest@64bfbc86</td></tr>
+<tr>
+<td title='com.cases.PressureTestCase.visitHomePage()'><b>visitHomePage</b><br>Test class: com.cases.PressureTestCase<br/>
+<a href="#Output-1827725498" onClick='toggleBox("Output-1827725498", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1827725498" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1827725498">
+[{
+	"head":{
+		"msg":"success",
+		"statusCode":"200"
+	},
+	"data":{
+		"task_detail":[
+			{
+				"actionType":6,
+				"taskType":0,
+				"total":0,
+				"processId":12393,
+				"prizeType":0,
+				"scrollOn":0,
+				"complete":0,
+				"title":"浏览积分兑换商城",
+				"prize":"1000",
+				"taskId":2,
+				"status":3
+			},
+			{
+				"prizeType":0,
+				"scrollOn":1,
+				"title":"微信扫码完善个人信息",
+				"prize":"100",
+				"actionType":999,
+				"taskType":0,
+				"total":0,
+				"qrCode":"http://weixin.wasu.com:8090/commonServer/qrcode/generateImg?data=http://weixin.wasu.com/dtvpoints_hz/insertCustomerInfo.html%3FstbId%3D11040210112052544C31CF2B%26taskId%3D1%26processId%3D12392&params=%7Bsize:510%7D",
+				"processId":12392,
+				"subtitle":"便于活动奖励的配送发放及惊喜优惠活动的优先推送",
+				"complete":0,
+				"taskId":1,
+				"status":3
+			},
+			{
+				"prizeType":0,
+				"scrollOn":0,
+				"title":"充值200元现金",
+				"prize":"1000",
+				"actionType":1003,
+				"taskType":2,
+				"total":1,
+				"qrCode":"charge",
+				"processId":20964,
+				"subtitle":"充值200元现金",
+				"complete":0,
+				"taskId":132,
+				"status":1
+			},
+			{
+				"prizeType":1,
+				"scrollOn":1,
+				"title":"安装华数宽带",
+				"prize":"200",
+				"actionType":1005,
+				"taskType":2,
+				"total":0,
+				"qrCode":"http://weixin.wasu.com:8090/commonServer/qrcode/generateImg?data=http://weixin.wasu.com/dtvpoints_hz/insertBroadbandInfo.html%3FstbId%3D11040210112052544C31CF2B%26taskId%3D128%26processId%3D13729&params=%7Bsize:510%7D",
+				"processId":13729,
+				"subtitle":"用户本人申请安装华数宽带",
+				"expireTimeStr":"2020/05/08",
+				"complete":0,
+				"taskId":128,
+				"status":3
+			}
+		],
+		"userLevel":"尊享用户",
+		"feeTotal":2930.33,
+		"nextOpenBoxTime":0,
+		"sign_data":{
+			"giveBoxsPoints":68,
+			"unSignDays":2,
+			"signedToday":false,
+			"nextBoxsDays":6,
+			"signTimes":1,
+			"recoverySignCost":"10",
+			"totalScore":52666,
+			"hasUrp":true
+		},
+		"orderStatus":1,
+		"isReceive":false,
+		"toGetPrize":[
+			{
+				"unit":"分",
+				"typeName":"积分",
+				"type":1,
+				"value":2160
+			},
+			{
+				"unit":"元",
+				"typeName":"充值卡",
+				"type":4,
+				"value":207
+			}
+		],
+		"userLogo":"http://125.210.162.185:8080/dtvtask_hz_mgr/images/hangwang_sub1.png",
+		"gotPrize":[],
+		"taskStatus":0
+	}
+}]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.cases.PressureTestCase@64bf3bbf</td></tr>
+</table><p>
+</body>
+</html>

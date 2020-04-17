@@ -8,6 +8,7 @@ import com.utils.Post;
 import org.apache.log4j.Logger;
 import org.json.JSONArray;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -33,15 +34,16 @@ public class PressureTestCase {
         JSONArray array=new JSONArray(result);
         log.info(result);
         String code=array.getJSONObject(0).getJSONObject("head").getString("statusCode");
+        Reporter.log(result);
         Assert.assertEquals(code,"200");
     }
-    @Test
+    @Test(enabled = false)
     public void visitTask() throws IOException {
         String result=Get.doGetAndGetJSONResult(TestConfig.visitTaskUrl);
         JSONArray array=new JSONArray(result);
         log.info(result);
     }
-    @Test
+    @Test(enabled = false)
     public void visitMyTask() throws IOException {
         String result=Get.doGetAndGetJSONResult(TestConfig.visitMyTaskUrl);
         JSONArray array=new JSONArray(result);
@@ -53,9 +55,10 @@ public class PressureTestCase {
         JSONArray array=new JSONArray(result);
         String stbID=array.getJSONObject(0).getString("stbId");
         log.info("stID是:"+stbID);
+        Reporter.log(result);
         Assert.assertEquals(stbID,"11040210112052544C31CF2B");
     }
-    @Test
+    @Test(enabled = false)
     public void sendInfo() throws IOException {
         Map<String,Object> map=new HashMap<String, Object>();
         map.put("积分兑换","积分兑换");
@@ -68,6 +71,7 @@ public class PressureTestCase {
         String result= Post.doPostAndGetJSONResult(TestConfig.sendInfoUrl,map);
         JSONArray array=new JSONArray(result);
         log.info(result);
+        Reporter.log(result);
         Assert.assertEquals(1,2);
     }
     @Test
@@ -75,6 +79,7 @@ public class PressureTestCase {
         String result=Get.doGetAndGetJSONResult(TestConfig.getInfoFromUrl);
         JSONArray array=new JSONArray(result);
         log.info(Get.response.getStatusLine().getStatusCode());
+        Reporter.log(result);
         Assert.assertEquals(Get.response.getStatusLine().getStatusCode(),200);
 
     }
@@ -84,6 +89,7 @@ public class PressureTestCase {
         JSONArray array=new JSONArray(result);
         String act=array.getJSONObject(0).getJSONObject("head").getString("statusCode");
         log.info(act);
+        Reporter.log(result);
         Assert.assertEquals(act,"200");
     }
 }

@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="13" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[[{
+"msg":"成功",
+"value":{
+"accountStatus":1,
+"minNeedAmount":1000,
+"accountId":101436332,
+"accountCredit":15000,
+"accountCode":1001388540,
+"creditId":3,
+"pointBalace":104171,
+"accountName":"华数传媒产品设计部测试演示机",
+"creditCanSet":1,
+"mobile":13958135765,
+"paymentMethod":1,
+"bookList":[
+{
+"itemName":"数字现金",
+"amount":1504,
+"payAmount":0,
+"feeTotal":-210454,
+"feeDetailTotal":80,
+"feeCycleTotal":211878
+},
+{
+"itemName":"数字优惠点",
+"amount":420571,
+"payAmount":0,
+"feeTotal":420571,
+"feeDetailTotal":0,
+"feeCycleTotal":0
+},
+{
+"itemName":"数字增值点",
+"amount":0,
+"payAmount":0,
+"feeTotal":0,
+"feeDetailTotal":0,
+"feeCycleTotal":0
+},
+{
+"itemName":"宽带基本服务账本",
+"amount":0,
+"payAmount":0,
+"feeTotal":0,
+"feeDetailTotal":0,
+"feeCycleTotal":0
+},
+{
+"itemName":"宽带现金账本",
+"amount":0,
+"payAmount":0,
+"feeTotal":0,
+"feeDetailTotal":0,
+"feeCycleTotal":0
+},
+{
+"itemName":"宽带点账本",
+"amount":0,
+"payAmount":0,
+"feeTotal":0,
+"feeDetailTotal":0,
+"feeCycleTotal":0
+},
+{
+"itemName":"数字包年账本",
+"amount":-168000,
+"payAmount":0,
+"feeTotal":-168000,
+"feeDetailTotal":0,
+"feeCycleTotal":0
+}
+]
+},
+"key":"success"
+}]]]>
+    </line>
+    <line>
+      <![CDATA[[{
+"head":{
+"msg":"success",
+"statusCode":"200"
+},
+"data":{
+"customerId":"102740233"
+}
+}]]]>
+    </line>
+    <line>
+      <![CDATA[[{
+"msg":"成功",
+"value":{
+"address":"杭州市区滨江区长河镇街道长河村社区长河村小区(农村)(停模)天马路79号华数产业园H座1楼国家实验室",
+"contactName":"少儿教育节目部",
+"subscriberStatus":2,
+"mobile":18768124828,
+"subscriberId":105407645,
+"subscriberCode":"0000438080",
+"cardNo":"8330110427096434",
+"pcdId":-1,
+"subFlag":3,
+"subscriberName":"少儿教育节目部",
+"resNo":"01111700622020A8BD3A617BC3",
+"familyLock":0,
+"customerId":102740233
+},
+"key":"success"
+}]]]>
+    </line>
+    <line>
+      <![CDATA[[{
+"ret":"0",
+"mImg":"http://irs.wasu.cn/iusdata/member/enjoy.png",
+"mIds":"1|1|1",
+"mUrls":"http://irs.wasu.cn/iusdata/member/wasulight.png|http://irs.wasu.cn/iusdata/member/childlight.png|http://irs.wasu.cn/iusdata/member/vaddlignt.png",
+"retInfo":"查询成功",
+"mName":"尊享用户"
+}]]]>
+    </line>
+    <line>
+      <![CDATA[[{
+"head":{
+"msg":"success",
+"statusCode":"200"
+},
+"data":{
+"AWARD_POINTS":200,
+"CUSTOMERID":"2757387",
+"STBID":"11040210112052544C31CF2B",
+"AWARD_NAME":"¶©¹º»ªÊý»áÔ±²úÆ·°ü",
+"OPTION_TYPE":22,
+"OPERATION_LOG_ID":244282313
+}
+}]]]>
+    </line>
+    <line>
+      <![CDATA[[{
+"head":{
+"msg":"success",
+"statusCode":"200"
+},
+"data":"1、签到积分2分,去看看可以兑换哪些东西吧；2、恭喜您,连续签到三天,任务奖励100积分奖励已到账，请注意查收；3、签到积分2分,去看看可以兑换哪些东西吧；4、恭喜您,积分兑换产品体验包,任务奖励小米充电宝已到账，请注意查收；5、恭喜您,充值200元现金,任务奖励1000积分已到账，请注意查收；"
+}]]]>
+    </line>
+    <line>
+      <![CDATA[[{
+"stbId":"11040210112052544C31CF2B",
+"taskList":[
+{
+"totalAmount":0,
+"amount":0,
+"period":0,
+"totalPeriod":15,
+"processId":21075,
+"type":1,
+"taskId":8,
+"taskStatus":0
+},
+{
+"totalAmount":10,
+"amount":0,
+"period":0,
+"totalPeriod":2,
+"processId":21074,
+"type":0,
+"taskId":7,
+"taskStatus":0
+},
+{
+"totalAmount":0,
+"amount":0,
+"period":0,
+"totalPeriod":15,
+"processId":21076,
+"type":2,
+"taskId":11,
+"taskStatus":0
+},
+{
+"totalAmount":0,
+"amount":0,
+"period":0,
+"totalPeriod":2,
+"processId":21073,
+"beginTime":"2020-4-17 00:00:00",
+"endTime":"2020-4-18 00:00:00",
+"type":3,
+"taskId":6,
+"taskStatus":0
+}
+],
+"interfaceStatus":200
+}]]]>
+    </line>
+    <line>
+      <![CDATA[[{
+"head":{
+"msg":"success",
+"statusCode":"200"
+},
+"data":{
+"task_detail":[
+{
+"actionType":6,
+"taskType":0,
+"total":0,
+"processId":12393,
+"prizeType":0,
+"scrollOn":0,
+"complete":0,
+"title":"浏览积分兑换商城",
+"prize":"1000",
+"taskId":2,
+"status":3
+},
+{
+"prizeType":0,
+"scrollOn":1,
+"title":"微信扫码完善个人信息",
+"prize":"100",
+"actionType":999,
+"taskType":0,
+"total":0,
+"qrCode":"http://weixin.wasu.com:8090/commonServer/qrcode/generateImg?data=http://weixin.wasu.com/dtvpoints_hz/insertCustomerInfo.html%3FstbId%3D11040210112052544C31CF2B%26taskId%3D1%26processId%3D12392&params=%7Bsize:510%7D",
+"processId":12392,
+"subtitle":"便于活动奖励的配送发放及惊喜优惠活动的优先推送",
+"complete":0,
+"taskId":1,
+"status":3
+},
+{
+"prizeType":0,
+"scrollOn":0,
+"title":"充值200元现金",
+"prize":"1000",
+"actionType":1003,
+"taskType":2,
+"total":1,
+"qrCode":"charge",
+"processId":20964,
+"subtitle":"充值200元现金",
+"complete":0,
+"taskId":132,
+"status":1
+},
+{
+"prizeType":1,
+"scrollOn":1,
+"title":"安装华数宽带",
+"prize":"200",
+"actionType":1005,
+"taskType":2,
+"total":0,
+"qrCode":"http://weixin.wasu.com:8090/commonServer/qrcode/generateImg?data=http://weixin.wasu.com/dtvpoints_hz/insertBroadbandInfo.html%3FstbId%3D11040210112052544C31CF2B%26taskId%3D128%26processId%3D13729&params=%7Bsize:510%7D",
+"processId":13729,
+"subtitle":"用户本人申请安装华数宽带",
+"expireTimeStr":"2020/05/08",
+"complete":0,
+"taskId":128,
+"status":3
+}
+],
+"userLevel":"尊享用户",
+"feeTotal":2930.33,
+"nextOpenBoxTime":0,
+"sign_data":{
+"giveBoxsPoints":68,
+"unSignDays":2,
+"signedToday":false,
+"nextBoxsDays":6,
+"signTimes":1,
+"recoverySignCost":"10",
+"totalScore":52666,
+"hasUrp":true
+},
+"orderStatus":1,
+"isReceive":false,
+"toGetPrize":[
+{
+"unit":"分",
+"typeName":"积分",
+"type":1,
+"value":2160
+},
+{
+"unit":"元",
+"typeName":"充值卡",
+"type":4,
+"value":207
+}
+],
+"userLogo":"http://125.210.162.185:8080/dtvtask_hz_mgr/images/hangwang_sub1.png",
+"gotPrize":[],
+"taskStatus":0
+}
+}]]]>
+    </line>
+  </reporter-output>
+  <suite name="任务系统" duration-ms="2013" started-at="2020-04-17T15:38:23 CST" finished-at="2020-04-17T15:38:25 CST">
+    <groups>
+    </groups>
+    <test name="任务系统测试" duration-ms="2013" started-at="2020-04-17T15:38:23 CST" finished-at="2020-04-17T15:38:25 CST">
+      <class name="com.cases.PressureTestCase">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.cases.PressureTestCase@64bf3bbf]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-04-17T15:38:23 CST" finished-at="2020-04-17T15:38:23 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="addIntegra()[pri:0, instance:com.cases.PressureTestCase@64bf3bbf]" name="addIntegra" duration-ms="166" started-at="2020-04-17T15:38:24 CST" finished-at="2020-04-17T15:38:24 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[[{
+"head":{
+"msg":"success",
+"statusCode":"200"
+},
+"data":{
+"AWARD_POINTS":200,
+"CUSTOMERID":"2757387",
+"STBID":"11040210112052544C31CF2B",
+"AWARD_NAME":"¶©¹º»ªÊý»áÔ±²úÆ·°ü",
+"OPTION_TYPE":22,
+"OPERATION_LOG_ID":244282313
+}
+}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addIntegra -->
+        <test-method status="PASS" signature="getInfoFrom()[pri:0, instance:com.cases.PressureTestCase@64bf3bbf]" name="getInfoFrom" duration-ms="110" started-at="2020-04-17T15:38:24 CST" finished-at="2020-04-17T15:38:24 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[[{
+"head":{
+"msg":"success",
+"statusCode":"200"
+},
+"data":"1、签到积分2分,去看看可以兑换哪些东西吧；2、恭喜您,连续签到三天,任务奖励100积分奖励已到账，请注意查收；3、签到积分2分,去看看可以兑换哪些东西吧；4、恭喜您,积分兑换产品体验包,任务奖励小米充电宝已到账，请注意查收；5、恭喜您,充值200元现金,任务奖励1000积分已到账，请注意查收；"
+}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getInfoFrom -->
+        <test-method status="PASS" signature="getPlayPluginTask()[pri:0, instance:com.cases.PressureTestCase@64bf3bbf]" name="getPlayPluginTask" duration-ms="18" started-at="2020-04-17T15:38:24 CST" finished-at="2020-04-17T15:38:24 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[[{
+"stbId":"11040210112052544C31CF2B",
+"taskList":[
+{
+"totalAmount":0,
+"amount":0,
+"period":0,
+"totalPeriod":15,
+"processId":21075,
+"type":1,
+"taskId":8,
+"taskStatus":0
+},
+{
+"totalAmount":10,
+"amount":0,
+"period":0,
+"totalPeriod":2,
+"processId":21074,
+"type":0,
+"taskId":7,
+"taskStatus":0
+},
+{
+"totalAmount":0,
+"amount":0,
+"period":0,
+"totalPeriod":15,
+"processId":21076,
+"type":2,
+"taskId":11,
+"taskStatus":0
+},
+{
+"totalAmount":0,
+"amount":0,
+"period":0,
+"totalPeriod":2,
+"processId":21073,
+"beginTime":"2020-4-17 00:00:00",
+"endTime":"2020-4-18 00:00:00",
+"type":3,
+"taskId":6,
+"taskStatus":0
+}
+],
+"interfaceStatus":200
+}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getPlayPluginTask -->
+        <test-method status="PASS" signature="visitHomePage()[pri:0, instance:com.cases.PressureTestCase@64bf3bbf]" name="visitHomePage" duration-ms="605" started-at="2020-04-17T15:38:24 CST" finished-at="2020-04-17T15:38:25 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[[{
+"head":{
+"msg":"success",
+"statusCode":"200"
+},
+"data":{
+"task_detail":[
+{
+"actionType":6,
+"taskType":0,
+"total":0,
+"processId":12393,
+"prizeType":0,
+"scrollOn":0,
+"complete":0,
+"title":"浏览积分兑换商城",
+"prize":"1000",
+"taskId":2,
+"status":3
+},
+{
+"prizeType":0,
+"scrollOn":1,
+"title":"微信扫码完善个人信息",
+"prize":"100",
+"actionType":999,
+"taskType":0,
+"total":0,
+"qrCode":"http://weixin.wasu.com:8090/commonServer/qrcode/generateImg?data=http://weixin.wasu.com/dtvpoints_hz/insertCustomerInfo.html%3FstbId%3D11040210112052544C31CF2B%26taskId%3D1%26processId%3D12392&params=%7Bsize:510%7D",
+"processId":12392,
+"subtitle":"便于活动奖励的配送发放及惊喜优惠活动的优先推送",
+"complete":0,
+"taskId":1,
+"status":3
+},
+{
+"prizeType":0,
+"scrollOn":0,
+"title":"充值200元现金",
+"prize":"1000",
+"actionType":1003,
+"taskType":2,
+"total":1,
+"qrCode":"charge",
+"processId":20964,
+"subtitle":"充值200元现金",
+"complete":0,
+"taskId":132,
+"status":1
+},
+{
+"prizeType":1,
+"scrollOn":1,
+"title":"安装华数宽带",
+"prize":"200",
+"actionType":1005,
+"taskType":2,
+"total":0,
+"qrCode":"http://weixin.wasu.com:8090/commonServer/qrcode/generateImg?data=http://weixin.wasu.com/dtvpoints_hz/insertBroadbandInfo.html%3FstbId%3D11040210112052544C31CF2B%26taskId%3D128%26processId%3D13729&params=%7Bsize:510%7D",
+"processId":13729,
+"subtitle":"用户本人申请安装华数宽带",
+"expireTimeStr":"2020/05/08",
+"complete":0,
+"taskId":128,
+"status":3
+}
+],
+"userLevel":"尊享用户",
+"feeTotal":2930.33,
+"nextOpenBoxTime":0,
+"sign_data":{
+"giveBoxsPoints":68,
+"unSignDays":2,
+"signedToday":false,
+"nextBoxsDays":6,
+"signTimes":1,
+"recoverySignCost":"10",
+"totalScore":52666,
+"hasUrp":true
+},
+"orderStatus":1,
+"isReceive":false,
+"toGetPrize":[
+{
+"unit":"分",
+"typeName":"积分",
+"type":1,
+"value":2160
+},
+{
+"unit":"元",
+"typeName":"充值卡",
+"type":4,
+"value":207
+}
+],
+"userLogo":"http://125.210.162.185:8080/dtvtask_hz_mgr/images/hangwang_sub1.png",
+"gotPrize":[],
+"taskStatus":0
+}
+}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- visitHomePage -->
+      </class> <!-- com.cases.PressureTestCase -->
+      <class name="com.cases.CaseTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.cases.CaseTest@64bfbc86]" name="beforeTest" is-config="true" duration-ms="11" started-at="2020-04-17T15:38:23 CST" finished-at="2020-04-17T15:38:23 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="getBalance()[pri:0, instance:com.cases.CaseTest@64bfbc86]" name="getBalance" duration-ms="888" started-at="2020-04-17T15:38:23 CST" finished-at="2020-04-17T15:38:23 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[[{
+"msg":"成功",
+"value":{
+"accountStatus":1,
+"minNeedAmount":1000,
+"accountId":101436332,
+"accountCredit":15000,
+"accountCode":1001388540,
+"creditId":3,
+"pointBalace":104171,
+"accountName":"华数传媒产品设计部测试演示机",
+"creditCanSet":1,
+"mobile":13958135765,
+"paymentMethod":1,
+"bookList":[
+{
+"itemName":"数字现金",
+"amount":1504,
+"payAmount":0,
+"feeTotal":-210454,
+"feeDetailTotal":80,
+"feeCycleTotal":211878
+},
+{
+"itemName":"数字优惠点",
+"amount":420571,
+"payAmount":0,
+"feeTotal":420571,
+"feeDetailTotal":0,
+"feeCycleTotal":0
+},
+{
+"itemName":"数字增值点",
+"amount":0,
+"payAmount":0,
+"feeTotal":0,
+"feeDetailTotal":0,
+"feeCycleTotal":0
+},
+{
+"itemName":"宽带基本服务账本",
+"amount":0,
+"payAmount":0,
+"feeTotal":0,
+"feeDetailTotal":0,
+"feeCycleTotal":0
+},
+{
+"itemName":"宽带现金账本",
+"amount":0,
+"payAmount":0,
+"feeTotal":0,
+"feeDetailTotal":0,
+"feeCycleTotal":0
+},
+{
+"itemName":"宽带点账本",
+"amount":0,
+"payAmount":0,
+"feeTotal":0,
+"feeDetailTotal":0,
+"feeCycleTotal":0
+},
+{
+"itemName":"数字包年账本",
+"amount":-168000,
+"payAmount":0,
+"feeTotal":-168000,
+"feeDetailTotal":0,
+"feeCycleTotal":0
+}
+]
+},
+"key":"success"
+}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getBalance -->
+        <test-method status="PASS" signature="getCustomCode()[pri:0, instance:com.cases.CaseTest@64bfbc86]" name="getCustomCode" duration-ms="21" started-at="2020-04-17T15:38:23 CST" finished-at="2020-04-17T15:38:23 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[[{
+"head":{
+"msg":"success",
+"statusCode":"200"
+},
+"data":{
+"customerId":"102740233"
+}
+}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getCustomCode -->
+        <test-method status="PASS" signature="getCustomID()[pri:0, instance:com.cases.CaseTest@64bfbc86]" name="getCustomID" duration-ms="108" started-at="2020-04-17T15:38:23 CST" finished-at="2020-04-17T15:38:24 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[[{
+"msg":"成功",
+"value":{
+"address":"杭州市区滨江区长河镇街道长河村社区长河村小区(农村)(停模)天马路79号华数产业园H座1楼国家实验室",
+"contactName":"少儿教育节目部",
+"subscriberStatus":2,
+"mobile":18768124828,
+"subscriberId":105407645,
+"subscriberCode":"0000438080",
+"cardNo":"8330110427096434",
+"pcdId":-1,
+"subFlag":3,
+"subscriberName":"少儿教育节目部",
+"resNo":"01111700622020A8BD3A617BC3",
+"familyLock":0,
+"customerId":102740233
+},
+"key":"success"
+}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getCustomID -->
+        <test-method status="PASS" signature="getUserLevel()[pri:0, instance:com.cases.CaseTest@64bfbc86]" name="getUserLevel" duration-ms="56" started-at="2020-04-17T15:38:24 CST" finished-at="2020-04-17T15:38:24 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[[{
+"ret":"0",
+"mImg":"http://irs.wasu.cn/iusdata/member/enjoy.png",
+"mIds":"1|1|1",
+"mUrls":"http://irs.wasu.cn/iusdata/member/wasulight.png|http://irs.wasu.cn/iusdata/member/childlight.png|http://irs.wasu.cn/iusdata/member/vaddlignt.png",
+"retInfo":"查询成功",
+"mName":"尊享用户"
+}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUserLevel -->
+      </class> <!-- com.cases.CaseTest -->
+    </test> <!-- 任务系统测试 -->
+  </suite> <!-- 任务系统 -->
+</testng-results>
